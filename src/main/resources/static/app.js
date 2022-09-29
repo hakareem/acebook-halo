@@ -11,6 +11,7 @@ window.onload = function () {
 }
 function toggle(a) {
   setBg()
+  likeBtn()
   // if (a.checkbox.checked == true) {
   //   document.documentElement.classList.add('transition')
   //   document.documentElement.setAttribute('data-theme', 'dark')
@@ -28,4 +29,13 @@ const setBg = () => {
   color.innerHTML = '#' + randomColor
 }
 
-genNew.addEventListener('click', setBg)
+const btn = document.querySelector('.likeBtn')
+
+btn.addEventListener('click', function onClick(event) {
+  console.log('HELLO MESSAGE')
+  // 👇️ change background color
+  btn.style.color = 'red'
+
+  // 👇️ optionally change text color
+  // document.body.style.color = 'white';
+})
