@@ -15,7 +15,7 @@ img {
 aside {
   width: 260px;
   height: 600px;
-  background-color: #1042b0;
+  background-color: #1e356b;
   display: inline-block;
   font-size: 15px;
   vertical-align: top;
@@ -58,7 +58,7 @@ aside li {
   padding: 15px 0;
 }
 aside li:hover {
-  background-color: #5e616a;
+  background-color: #a5b4d1;
 }
 
 aside li img {
