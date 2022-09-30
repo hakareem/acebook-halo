@@ -22,7 +22,7 @@
 }
 
 .navbar-mainbg {
-  background-color: #5c2b9b;
+  background-color: #2b5d9b;
   padding: 0px;
 }
 #navbarSupportedContent {
@@ -52,7 +52,7 @@
   position: relative;
 }
 #navbarSupportedContent > ul > li.active > a {
-  color: #5c2b9b;
+  color: #2b5d9b;
   background-color: transparent;
   transition: all 0.7s;
 }
@@ -106,7 +106,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #5c2b9b;
+  background-color: #2b5d9b;
 }
 .hori-selector .right:before {
   bottom: 0;
