@@ -381,6 +381,7 @@ a.one:hover {
   margin-bottom: 1rem;
   margin-left: 1rem;
   /* border: #007bff; */
+  /* text-decoration: none; */
 }
 
 .users-container {
@@ -394,12 +395,14 @@ a.one:hover {
   );
   color: #000000;
   text-align: center;
+  padding-bottom: 15px;
   border-radius: 1rem;
   position: relative;
   width: 280px;
   margin-bottom: 1rem;
   margin-left: 1rem;
   /* border: #007bff; */
+  /* text-decoration: none; */
 }
 
 .banner-img-friends {
