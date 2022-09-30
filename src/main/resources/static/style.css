@@ -29,11 +29,11 @@ textarea {
 
 .img_upload_icon:hover {
   cursor: pointer;
-  content: '\F429';
+  content: "\F429";
 }
 
 .img_upload_icon:hover::before {
-  content: '\F429';
+  content: "\F429";
 }
 
 .image-upload {
@@ -96,24 +96,24 @@ i {
 }
 
 .img-comment:hover::before {
-  content: '\F252';
+  content: "\F252";
 }
 
 .img-comment:hover {
-  content: '\F253';
+  content: "\F253";
 }
 
 .img-like:hover::before {
-  content: '\F415';
+  content: "\F415";
 }
 
 .img-like:hover {
   color: red;
-  content: '\F417';
+  content: "\F417";
 }
 
 .img-out:hover::before {
-  content: '\F52D';
+  content: "\F52D";
 }
 
 .img-out:hover {
@@ -219,7 +219,7 @@ button {
 button::before,
 button::after {
   background: #0064d0;
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   border-radius: 3.5px;
@@ -282,6 +282,12 @@ button:hover {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
 }
 
 .login_box {
